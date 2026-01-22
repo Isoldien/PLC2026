@@ -1,7 +1,19 @@
+import java.util.Scanner;
+
 class Circle {
 
   public static void main(String[] args) {
-    int size = 15; // Integer.parseInt(args[0]);
+
+    /* Edit by HabiburRahman_240217006
+     * Start 
+     * Takes user input and uses it as size for the circle.
+     */
+    Scanner sc = new Scanner(System.in);
+    int userInt = sc.nextInt();
+    System.out.println("Enter a number: ");
+    /* End */
+
+    int size = userInt; // Integer.parseInt(args[0]); // Edit made by HabiburRahman_240217006
     Circle c = new Circle(size);
     for (int i = 1; i <= size; i++ ) {
       System.out.println(c.circleLine(i));
@@ -45,4 +57,7 @@ class Circle {
   //   }
   // }
   //test comment
+  //
 }
+
+
