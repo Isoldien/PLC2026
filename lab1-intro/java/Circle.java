@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //Edit made by HabiburRahman_240217006
 
 class Circle {
 
@@ -8,9 +8,10 @@ class Circle {
      * Start 
      * Takes user input and uses it as size for the circle.
      */
+
     Scanner sc = new Scanner(System.in);
-    int userInt = sc.nextInt();
-    System.out.println("Enter a number: ");
+    System.out.println("Enter a number for circle size: \n");
+    int userInt = sc.nextInt(); 
     /* End */
 
     int size = userInt; // Integer.parseInt(args[0]); // Edit made by HabiburRahman_240217006
