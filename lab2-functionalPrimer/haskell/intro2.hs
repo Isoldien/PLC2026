@@ -5,6 +5,7 @@ name = "Alice"
 -- "if" has a special syntax but otherwise a typed version of Lisp's "if":
 name2 = if name /= "" then name else "no name"
 
+
 pname3 = print "Bob"
 
 myprogram = print (1 + m)  -- compiler error: m undefined
@@ -40,3 +41,5 @@ greet1 = "hello " ++ name ++ (toString 123)
 greet2 = (++) "hello " name
 -- concatenating more than 2 strings:
 greet3 = concat ["hello ", name, toString 123]
+
+greet4 = "here's a number: " ++ (toString [1..100])
